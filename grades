@@ -1,0 +1,12 @@
+#! /bin/bash
+
+MARKS=$1
+
+if [ ${MARKS} -gt 90 ] ; then
+ echo A grade
+elif [ ${MARKS} -gt 80 ] ; then
+ echo B grade
+else
+ echo C grade
+fi
+ 

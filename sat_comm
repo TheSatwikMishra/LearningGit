@@ -1,0 +1,8 @@
+#! /bin/bash
+
+if [ " $1 " = " satwik " ] ; then
+echo process is running
+else 
+echo process is not running
+fi
+echo done

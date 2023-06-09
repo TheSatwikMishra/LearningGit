@@ -1,0 +1,10 @@
+#! /bin/bash
+
+friends=(tarun sohail siddhart "satwik mishra")
+
+for friend in ${friends[*]}
+do 
+ echo friend : ${friend}
+done
+
+echo total friends ${#friends[*]}
